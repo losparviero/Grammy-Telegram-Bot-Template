@@ -10,7 +10,7 @@ Includes concurrent run using @grammyjs/runner and error handling.
 
 1. Clone git repo.
 2. Run ```npm i``` in project folder. This will install the required dependencies.
-3. Populate .env file with bot token & bot dev ID (optional).
+3. Populate .env file with bot token.
 #### Bot token can be obtained from @BotFather.
 
 4. Run ```node bot``` to start the bot.
