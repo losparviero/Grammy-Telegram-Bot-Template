@@ -14,7 +14,7 @@ function getSessionKey(ctx) {
 bot.use(sequentialize(getSessionKey));
 bot.use(session({ getSessionKey }));
 
-// Measure response time
+// Measure response time (optional)
 
 async function responseTime(ctx, next) {
   // take time before
@@ -32,9 +32,8 @@ bot.use(responseTime);
 // Commands
 
 bot.command("start", (ctx) => {
-    ctx.reply("<b>Welcome!</b> ✨",{ parse_mode: "HTML" } );
-    console.log("New user added:");
-    console.log(ctx.from);
+    ctx.reply("*Welcome!* ✨",{ parse_mode: "Markdown" } );
+    console.log("New user added:", ctx.from);
     });
 bot.command("help", (ctx) => ctx.reply("This is a template. By using you agree to ToS."));
 

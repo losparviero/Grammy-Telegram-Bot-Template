@@ -11,10 +11,7 @@ Includes concurrent run using @grammyjs/runner and error handling.
 1. Clone git repo.
 2. Run ```npm i``` in project folder. This will install the required dependencies.
 3. Populate .env file with bot token & bot dev ID (optional).
-
 #### Bot token can be obtained from @BotFather.
-
-#### Bot dev ID refers to the user ID of your Telegram account. This is needed for logging purposes.
 
 4. Run ```node bot``` to start the bot.
 
@@ -27,12 +24,6 @@ Includes concurrent run using @grammyjs/runner and error handling.
 1. Use ```rm -rf```.
 
 *Note:* If you're unfamiliar with this command, delete project folder from file explorer.
-
-<br>
-
-### Mechanism
-
-The bot takes data, parses input, uses the 'insert' lib to process data and returns a value.
 
 <br>
 
