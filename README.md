@@ -1,6 +1,8 @@
-# Repo Name
+# Grammy Telegram Bot Template
 
-One liner description.
+A simple starter template using the Grammy library for Telegram bots.
+
+Includes concurrent run using @grammyjs/runner and error handling.
 
 <br>
 
@@ -33,7 +35,6 @@ One liner description.
 The bot takes data, parses input, uses the 'insert' lib to process data and returns a value.
 
 <br>
-
 
     Copyright (C) 2023  Author
 
